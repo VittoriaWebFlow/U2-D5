@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffc017;
+}
+
+a {
+    text-decoration: none;
+    color: #191919;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    
+}
+
+#btn {
+   padding: 15px 20px;
+  
+}
+.button {
+    background-color: #191919;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    height: 40px;
+    width: 170px;
+    border: transparent;
+    cursor: pointer;
+   }
+
+   .button2 {
+    background-color: #191919;
+    color: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 170px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 1em;
+    
+   }
+    
+   hr {
+    margin-top: 0;
+    border-top: 1px solid #040303;
+    border-bottom: 1px solid #040303;
+    margin-bottom: 0;
+   }
+    
+   .head {
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffc017;
+    
+   
+   }
+
+   h1{
+    font-size: 5em;
+    font-family: "Spectral", serif;
+    color: #191919;
+    font-weight: 500;
+    gap: 15px;
+    
+    padding: 15px 20px;
+    
+   }
+
+   h2 {
+    color: #191919;
+    padding: 15px 20px;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+section {
+    position: relative;
+}
+#M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 0;
+    position: absolute;
+    margin-top: 1em;
+    top: 0;
+    right: 0;
+    width: 60%;
+}
+
+
+.flex-parent p{
+    display: flex;
+        align-items: center;
+        padding-left: 200px;
+        padding-top: 20px;
+}
+
+
+
+
+
+#container {
+    width: auto;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 300px;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#container h3 {
+    font-size: 1.2em;
+   
+}
+
+#container h2 {
+    font-size: 1em;
+    font-weight: 700;
+    margin-left: 3em;
+    padding: 10px;
+}
+
+#container p{
+    font-size: 0.6em;
+    margin-top: 0;
+    margin-left: 6em;
+    padding: 0;
+}
+
+h3 img {
+    border-radius: 30px;
+    margin-right: 1em;
+    }
+
+    h3  {
+        display: flex;
+        
+            justify-content: flex-start;
+            
+            align-items: center
+    }
+
+    .flex-item1 {
+        padding-right: 2em;
+        margin-bottom: 3em;
+    }
+    .flex-item2 {
+        padding-right: 2em;
+        margin-bottom: 3em;
+        margin-left: 3em;
+    }
+    .flex-item3{
+        padding-right: 2em;
+        margin-bottom: 3em;
+        margin-left: 3em;
+    }
+
+    .flex-item4 {
+        padding-right: 2em;
+        margin-bottom: 3em;
+    }
+    .flex-item5 {
+        padding-right: 2em;
+        margin-bottom: 3em;
+        
+    }
+    .flex-item6 {
+     margin-left: 3em;
+        margin-bottom: 4em;
+        
+    }
+    
+#container2 p {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 300px;
+    margin-bottom: 1em;
+}
+
+    .obj1 {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 300px;
+    }
+  .obj2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 300px;
+  }
+
+.obj3{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 300px;
+}
+   
+    .obj4{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 300px;
+    }
+    .obj5{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 300px;
+    }
+    .obj6{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 200px;
+        padding-right: 300px;
+    }
